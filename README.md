@@ -1,4 +1,3 @@
-# ReflexOffice.Visitor
 ReflexOffice - Visitor System
 ================================
 Visitor System for a company reception
