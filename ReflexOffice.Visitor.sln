@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflexOffice.Server", "ReflexOffice.Server\ReflexOffice.Server.csproj", "{0AE6C190-CCE4-44E9-A70E-BA191927543E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflexOffice.Shared", "ReflexOffice.Shared\ReflexOffice.Shared.csproj", "{30665B6F-07FA-4330-BEB1-9788F752D065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflexOffice.Database", "ReflexOffice.Database\ReflexOffice.Database.csproj", "{F70F4C5B-B84F-45C7-9A70-AC8B6934179A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflexOffice.ClientApp", "ReflexOffice.ClientApp\ReflexOffice.ClientApp.csproj", "{3DF7C97B-58F7-456C-AD11-41DEAA44EC64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{0AE6C190-CCE4-44E9-A70E-BA191927543E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AE6C190-CCE4-44E9-A70E-BA191927543E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AE6C190-CCE4-44E9-A70E-BA191927543E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30665B6F-07FA-4330-BEB1-9788F752D065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30665B6F-07FA-4330-BEB1-9788F752D065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30665B6F-07FA-4330-BEB1-9788F752D065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30665B6F-07FA-4330-BEB1-9788F752D065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F70F4C5B-B84F-45C7-9A70-AC8B6934179A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F70F4C5B-B84F-45C7-9A70-AC8B6934179A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F70F4C5B-B84F-45C7-9A70-AC8B6934179A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F70F4C5B-B84F-45C7-9A70-AC8B6934179A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DF7C97B-58F7-456C-AD11-41DEAA44EC64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF7C97B-58F7-456C-AD11-41DEAA44EC64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF7C97B-58F7-456C-AD11-41DEAA44EC64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF7C97B-58F7-456C-AD11-41DEAA44EC64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
