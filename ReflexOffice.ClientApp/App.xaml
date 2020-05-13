@@ -4,6 +4,17 @@
              xmlns:local="clr-namespace:ReflexOffice.ClientApp"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary>
+                    <SolidColorBrush x:Key="ApplicationHighlightBrush" Color="#ff679cc9"/>
+                    <SolidColorBrush x:Key="ApplicationBackgroundBrush" Color="#3c3f41"/>
+                    <BooleanToVisibilityConverter x:Key="booleanToVisibilityConverter"/>
+                </ResourceDictionary>
+                <ResourceDictionary Source="Style/Button.xaml" />
+                <ResourceDictionary Source="Style/Label.xaml" />
+                <ResourceDictionary Source="Style/Textbox.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
