@@ -61,7 +61,7 @@
                                 <DataGridTextColumn Header="Id" Width="50" Binding="{Binding Path=Id}"/>
                                 <DataGridTextColumn Header="Full Name" Width="200" Binding="{Binding Path=first_name}"/>
                                 <DataGridTextColumn Header="Full Name" Width="200" Binding="{Binding Path=last_name}"/>
-                                <DataGridCheckBoxColumn Header="Alive" Binding="{Binding Path=IsAlive}"/>
+                                <DataGridCheckBoxColumn Header="Complete" Binding="{Binding Path=Completed}"/>
                                 <DataGridTemplateColumn Header="Arrival" SortMemberPath="ArrivalDate">
                                     <DataGridTemplateColumn.CellTemplate>
                                         <DataTemplate>
@@ -72,14 +72,14 @@
                                 <DataGridTemplateColumn Header="Departure" SortMemberPath="DepartureDate">
                                     <DataGridTemplateColumn.CellTemplate>
                                         <DataTemplate>
-                                            <TextBlock Width="100" HorizontalAlignment="Center" Text="{Binding Path=DepartureDate, StringFormat='{}{0:yyyy-MM-dd}'}"/>
+                                            <TextBlock Width="100" HorizontalAlignment="Center" Text="{Binding Path=End_Date, StringFormat='{}{0:yyyy-MM-dd}'}"/>
                                         </DataTemplate>
                                     </DataGridTemplateColumn.CellTemplate>
                                 </DataGridTemplateColumn>
-                                <DataGridTemplateColumn Header="Sallary" SortMemberPath="AccountBalance">
+                                <DataGridTemplateColumn Header="Status" SortMemberPath="Item_Status">
                                     <DataGridTemplateColumn.CellTemplate>
                                         <DataTemplate>
-                                            <TextBlock Text="{Binding Path=AccountBalance,  ConverterCulture=en-GB,StringFormat=d}"/>
+                                            <TextBlock Text="{Binding Path=Item_Status}"/>
                                         </DataTemplate>
                                     </DataGridTemplateColumn.CellTemplate>
                                 </DataGridTemplateColumn>
