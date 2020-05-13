@@ -5,7 +5,7 @@ It is possible to use pc-app for printing Visitor Badge and use a tablet for vis
 
 ReflexOffice Visitor use
 
-DotNet core 3.1
-Blazor
-WPF dotnet
-and for database MYSQL
+- DotNet core 3.1
+- Blazor
+- WPF dotnet
+- MYSQL
